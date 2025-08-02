@@ -3,59 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scent & Style - Exquisite Perfumes</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Faizan Perfume</title>
 </head>
-<body class="a min-h-screen flex flex-col">
-
-    <!-- Header Section -->
-    <header class="b">
-        <div class="c">
-            Scent & Style
+<body>
+    <nav>
+        <input type='checkbox' id='check' />
+        
+        <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        
+        <h2>Faizan perfume</h2>
+        
+        <div class="nav-home">
+            <a href="#hero-section">Home</a>
+            <a href="#about-us">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact">Help</a> 
+            
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
         </div>
-        <nav class="d">
-            <ul class="e">
-                <li><a href="#hero" class="f">Home</a></li>
-                <li><a href="#shop" class="g">Shop</a></li>
-                <li><a href="#about-us" class="h">About</a></li>
-                <li><a href="#contact" class="i">Contact</a></li>
-            </ul>
-            <div class="icon">
-              <div class="box"><a href="#hero" class="f">  <i class="fa-solid fa-house"></i></a></div>
-               <div class="box"> <a href="#shop" class="g"><i class="fa-solid fa-shop"></i></a></div>
-            <div class="box"> <a href="#about-us" class="h"></a><i class="fa-solid fa-address-card"></i></a></div>
-               <div class="box"> <i class="fa-solid fa-address-book"></i></a></div>
+    </nav>
+    
+    <main>
+        <div class="hero-section" id="hero-section"> 
+            <video autoplay loop muted src="main video.mp4"></video>
+        </div>
+        <div class="hero-card">
+            <h1>Main Collections</h1>
+            <div class="cards">
+                <div class="main card1"><img src="img/per1.png" alt=""> <h2>Ethereal Bloom</h2> <h3>Floral & Fresh</h3><p>₹7,500</p><button>Add to cart</button></div>
+                <div class="main card2"><img src="img/per2.png" alt=""><h2>Midnight Serenade</h2><h3>Warm & Spicy</h3><p>₹9,000</p><button>Add to cart</button></div>
+                <div class="main card3"><img src="img/per3.png" alt=""><h2>Citrus Zest</h2><h3>Bright & Energetic</h3><p>₹6,000</p><button>Add to cart</button></div>
+                <div class="main card4"><img src="img/per4.png" alt=""><h2>Ocean Breeze</h2><h3>Fresh & Aquatic</h3><p>₹8,000</p><button>Add to cart</button></div>
+                <div class="main card6"><img src="img/per6.png" alt=""><h2>Desert Bloom</h2><h3>Earthy & Floral</h3><p>₹9,500</p><button>Add to cart</button></div>
+                <div class="main card7"><img src="img/per7.png" alt=""><h2>Classic Elegance</h2><h3>Timeless & Sophisticated</h3><p>₹11,000</p><button>Add to cart</button></div>
+                <div class="main card8"><img src="img/per8.png" alt=""><h2>Velvet Night</h2><h3>Rich & Alluring</h3><p>₹10,500</p><button>Add to cart</button></div>
+                <div class="main card9"><img src="img/per9.png" alt=""><h2>Winter Spice</h2><h3>Warm & Cozy</h3><p>₹7,000</p><button>Add to cart</button></div>
+                <div class="main card10"><img src="img/per5.png" alt=""><h2>Summer Breeze</h2><h3>Light & Refreshing</h3><p>₹6,500</p><button>Add to cart</button></div>
             </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="hero" class="j">
-        <div class="k">
-            <h1 class="l">
-                <span class="font-normal">Discover</span> Your Signature Scent
-            </h1>
-            <p class="m">
-                Explore our curated collection of exquisite perfumes, crafted for every mood and occasion.
-            </p>
-            <a href="#shop" class="n">
-                Shop The Collection
-            </a>
         </div>
-    </section>
-
-    <!-- Shop Section Wrapper -->
-    <div id="shop" class="shop-wrapper">
-
-        <!-- Featured Products Section -->
+        <div class="intro">
+            <h1> Details of the Perfume</h1>
+        </div>
+        <div class="about-section">
+            <div class="img img1">
+                <div>
+                    <img src="img/perf1.webp" alt="">
+                </div> 
+                <div>
+                    <h3>The Man Company’s Blanc and Noir perfumes are crafted for the modern gentleman, offering a perfect blend of elegance and masculinity. Blanc features a 
+                        light, refreshing fragrance ideal for daytime wear, while Noir delivers a bold, intense aroma suited for evenings and special occasions. Both come in sleek 
+                        100ml bottles with a minimalist design—white with gold for Blanc, 
+                        and black with silver for Noir—reflecting their distinct personalities. These perfumes not only smell luxurious but also leave a lasting impression.</h3>
+                </div>
+            </div>
+            <div class="img img2">
+                <div>
+                    <img src="img/perf2.png" alt="">
+                </div> 
+                <div>
+                    <h3>Vetiver Eau de Toilette by Guerlain is a timeless men's fragrance known for its fresh, earthy, and woody scent.
+                        It opens with lively citrus top notes and transitions into a refined heart of vetiver root, creating a crisp and 
+                        sophisticated aroma. First introduced in 1959, Vetiver remains a classic choice for men who appreciate elegance, 
+                        masculinity, and tradition. Its clear glass bottle with a green label reflects the natural 
+                        freshness of the scent, making it perfect for both daily wear and special occasions.</h3>
+                </div>
+            </div> 
+            <div class="img img3">
+                <div>
+                    <img src="img/perf4.png" alt="">
+                </div> 
+                <div>
+                    <h3>Bergamot Beauté Gentle Man Pure Parfum is a refined and modern fragrance crafted for the confident, sophisticated man. With rich 
+                        bergamot top notes and deep, warm undertones, this perfume delivers a long-lasting scent that blends freshness with strength. Its 
+                        sleek black-and-blue gradient bottle paired with a matching box reflects elegance and masculinity, making it a perfect gift or daily 
+                        signature scent. Designed for those who appreciate bold yet
+                        balanced fragrances, Gentle Man leaves a lasting impression wherever you go.</h3>
+                </div>
+            </div>
+        </div>
         <section class="o">
-            <h2 class="p">
-                Featured Collections
-            </h2>
+            <h2 class="p">Featured Collections</h2>
             <div class="q">
-                <!-- Product Card 1 -->
                 <div class="r product-card-hover group">
                     <img src="img/per1.png" alt="Perfume Product 1" class="s product-image">
                     <div class="t1">
@@ -65,7 +98,6 @@
                         <button class="w add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                <!-- Product Card 2 -->
                 <div class="a1 product-card-hover group">
                     <img src="img/per2.png" alt="Perfume Product 2" class="b1 product-image">
                     <div class="c1">
@@ -75,7 +107,6 @@
                         <button class="f1 add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                <!-- Product Card 3 -->
                 <div class="g1 product-card-hover group">
                     <img src="img/per3.png" alt="Perfume Product 3" class="h1 product-image">
                     <div class="i1">
@@ -85,23 +116,12 @@
                         <button class="l1 add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                </div>
             </div>
         </section>
         
-             <!-- <div class="ext">
-                <div class="ext1"><img src="img/per12.png" alt=""></div>
-                <div class="ext2"><img src="img/per13.png" alt=""></div>
-                <div class="ext3"><img src="img/per14.png" alt=""></div>
-                <div class="ext4"><img src="img/per15.png" alt=""></div>
-             </div> -->
-        <!-- New Arrivals Section -->
         <section class="s2">
-            <h2 class="t2">
-                New Arrivals
-            </h2>
+            <h2 class="t2">New Arrivals</h2>
             <div class="u2">
-                <!-- New Product Card 1 -->
                 <div class="v2 product-card-hover group">
                     <img src="img/per4.png" alt="New Perfume 1" class="w2 product-image">
                     <div class="x2">
@@ -111,7 +131,6 @@
                         <button class="b3 add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                <!-- New Product Card 2 -->
                 <div class="c3 product-card-hover group">
                     <img src="img/per5.png" alt="New Perfume 2" class="d3 product-image">
                     <div class="e3">
@@ -124,13 +143,9 @@
             </div>
         </section>
 
-        <!-- Best Sellers Section -->
         <section class="j3">
-            <h2 class="k3">
-                Best Sellers
-            </h2>
+            <h2 class="k3">Best Sellers</h2>
             <div class="l3">
-                <!-- Best Seller Product Card 1 -->
                 <div class="m3 product-card-hover group">
                     <img src="img/per6.png" alt="Best Seller 1" class="n3 product-image">
                     <div class="o3">
@@ -140,7 +155,6 @@
                         <button class="s3 add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                <!-- Best Seller Product Card 2 -->
                 <div class="t3 product-card-hover group">
                     <img src="img/per7.png" alt="Best Seller 2" class="u3 product-image">
                     <div class="v3">
@@ -153,13 +167,9 @@
             </div>
         </section>
 
-        <!-- Seasonal Scents Section -->
         <section class="a4">
-            <h2 class="b4">
-                Seasonal Scents
-            </h2>
+            <h2 class="b4">Seasonal Scents</h2>
             <div class="c4">
-                <!-- Seasonal Product Card 1 -->
                 <div class="d4 product-card-hover group">
                     <img src="img/per8.png" alt="Seasonal Scent 1" class="e4 product-image">
                     <div class="f4">
@@ -169,7 +179,6 @@
                         <button class="j4 add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
-                <!-- Seasonal Product Card 2 -->
                 <div class="k4 product-card-hover group">
                     <img src="img/per9.png" alt="Seasonal Scent 2" class="l4 product-image">
                     <div class="m4">
@@ -182,106 +191,86 @@
             </div>
         </section>
 
-    </div> <!-- End Shop Section Wrapper -->
+        <section id="about-us" class="s1">
+            <div class="t1">
+                <h2 class="u1">Our Philosophy</h2>
+                <p class="v1">
+                    At Scent & Style, we believe that fragrance is an extension of identity. We meticulously source the finest ingredients from around the world to create unique and captivating scents that resonate with your personal style. Our commitment is to quality, artistry, and sustainability, ensuring every bottle tells a story.
+                </p>
+                <h3 class="r4">Our Story</h3>
+                <p class="s4">
+                    Founded in 2020 by a team of passionate perfumers, Scent & Style was born from a desire to bring exceptional fragrances to discerning individuals. We started in a small atelier, handcrafting each blend with precision and care. Today, we continue that tradition, combining age-old techniques with modern innovation to create scents that are both timeless and contemporary. Our journey is one of passion, dedication, and the pursuit of olfactory perfection.
+                </p>
+            </div>
+        </section>
 
-    <!-- About Us Section -->
-    <section id="about-us" class="s1">
-        <div class="t1">
-            <h2 class="u1">
-                Our Philosophy
-            </h2>
-            <p class="v1">
-                At Scent & Style, we believe that fragrance is an extension of identity. We meticulously source the finest ingredients from around the world to create unique and captivating scents that resonate with your personal style. Our commitment is to quality, artistry, and sustainability, ensuring every bottle tells a story.
-            </p>
-            <h3 class="r4">Our Story</h3>
-            <p class="s4">
-                Founded in 2020 by a team of passionate perfumers, Scent & Style was born from a desire to bring exceptional fragrances to discerning individuals. We started in a small atelier, handcrafting each blend with precision and care. Today, we continue that tradition, combining age-old techniques with modern innovation to create scents that are both timeless and contemporary. Our journey is one of passion, dedication, and the pursuit of olfactory perfection.
-            </p>
-        </div>
-    </section>
-
-    <!-- Customer Reviews Section -->
-    <section class="t4">
-        <h2 class="u4">
-            What Our Customers Say
-        </h2>
-        <div class="v4">
-            <!-- Review Card 1 -->
-            <div class="w4">
-                <p class="x4">"Absolutely love the 'Ethereal Bloom'! It's light, refreshing, and lasts all day. I get so many compliments."</p>
+        <section class="t4">
+            <h2 class="u4">What Our Customers Say</h2>
+            <div class="v4">
+                <div class="w4">
+                    <p class="x4">"Absolutely love the 'Ethereal Bloom'! It's light, refreshing, and lasts all day. I get so many compliments."</p>
                 <p class="y4">- Jane D.</p>
+                </div>
+                <div class="z4">
+                    <p class="a5">"Midnight Serenade is my new favorite evening scent. It's sophisticated and truly unique."</p>
+                    <p class="b5">- Mark S.</p>
+                </div>
+                <div class="c5">
+                    <p class="d5">"Impressed with the quality and quick delivery. Citrus Zest is perfect for my daily routine."</p>
+                    <p class="e5">- Emily R.</p>
+                </div>
             </div>
-            <!-- Review Card 2 -->
-            <div class="z4">
-                <p class="a5">"Midnight Serenade is my new favorite evening scent. It's sophisticated and truly unique."</p>
-                <p class="b5">- Mark S.</p>
-            </div>
-            <!-- Review Card 3 -->
-            <div class="c5">
-                <p class="d5">"Impressed with the quality and quick delivery. Citrus Zest is perfect for my daily routine."</p>
-                <p class="e5">- Emily R.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Blog/News Section -->
-    <section class="f5">
-        <h2 class="g5">
-            Latest From Our Blog
-        </h2>
-        <div class="h5">
-            <!-- Blog Post 1 -->
-            <div class="i5">
-                <img src="img/per10.png" alt="Blog Post 1" class="j5">
-                <h3 class="k5">The Art of Layering Fragrances</h3>
-                <p class="l5">Discover how to combine different scents to create a unique personal aroma.</p>
-                <a href="#" class="m5">Read More &rarr;</a>
+        <section class="f5">
+            <h2 class="g5">Latest From Our Blog</h2>
+            <div class="h5">
+                <div class="i5">
+                    <img src="img/per10.png" alt="Blog Post 1" class="j5">
+                    <h3 class="k5">The Art of Layering Fragrances</h3>
+                    <p class="l5">Discover how to combine different scents to create a unique personal aroma.</p>
+                    <a href="#" class="m5">Read More &rarr;</a>
+                </div>
+                <div class="n5">
+                    <img src="img/per1.5.png" alt="Blog Post 2" class="o5">
+                    <h3 class="p5">Behind the Bottle: Our Sourcing Journey</h3>
+                    <p class="q5">A look into where our exquisite ingredients come from and our commitment to ethical practices.</p>
+                    <a href="#" class="r5">Read More &rarr;</a>
+                </div>
             </div>
-            <!-- Blog Post 2 -->
-            <div class="n5">
-                <img src="per11.png" alt="Blog Post 2" class="o5">
-                <h3 class="p5">Behind the Bottle: Our Sourcing Journey</h3>
-                <p class="q5">A look into where our exquisite ingredients come from and our commitment to ethical practices.</p>
-                <a href="#" class="r5">Read More &rarr;</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="s5">
-        <div class="t5">
-            <h2 class="u5">
-                Get In Touch
-            </h2>
-            <p class="v5">
-                Have a question or need assistance? Our team is here to help. Reach out to us through the form below or find our contact details.
-            </p>
-            <form class="w5">
-                <input type="text" placeholder="Your Name" class="x5">
-                <input type="email" placeholder="Your Email" class="y5">
-                <textarea placeholder="Your Message" rows="5" class="z5"></textarea>
-                <button type="submit" class="a6">Send Message</button>
-            </form>
-            <div class="b6">
-                <p class="c6">Email: <a href="mailto:info@scentandstyle.com" class="d6">info@scentandstyle.com</a></p>
-                <p class="e6">Phone: <a href="tel:+1234567890" class="f6">+1 (234) 567-890</a></p>
+        <section id="contact" class="s5">
+            <div class="t5">
+                <h2 class="u5">Get In Touch</h2>
+                <p class="v5">
+                    Have a question or need assistance? Our team is here to help. Reach out to us through the form below or find our contact details.
+                </p>
+                <form class="w5">
+                    <input type="text" placeholder="Your Name" class="x5">
+                    <input type="email" placeholder="Your Email" class="y5">
+                    <textarea placeholder="Your Message" rows="5" class="z5"></textarea>
+                    <button type="submit" class="a6">Send Message</button>
+                </form>
+                <div class="b6">
+                    <p class="c6">Email: <a href="mailto:info@scentandstyle.com" class="d6">info@scentandstyle.com</a></p>
+                    <p class="e6">Phone: <a href="tel:+1234567890" class="f6">+1 (234) 567-890</a></p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer Section -->
-    <footer class="w1">
-        <div class="x1">
-            <div class="y1">
-                <p class="z1">&copy; 2025 Scent & Style. All rights reserved.</p>
+        <footer class="w1">
+            <div class="x1">
+                <div class="y1">
+                    <p class="z1">&copy; 2025 Scent & Style. All rights reserved.</p>
+                </div>
+                <div class="a2">
+                    <a href="#" class="b2">Privacy Policy</a>
+                    <a href="#" class="c2">Terms of Service</a>
+                    <a href="#" class="d2">FAQs</a>
+                </div>
             </div>
-            <div class="a2">
-                <a href="#" class="b2">Privacy Policy</a>
-                <a href="#" class="c2">Terms of Service</a>
-                <a href="#" class="d2">FAQs</a>
-            </div>
-        </div>
-    </footer>
-
+        </footer>
+    </main>
 </body>
 </html>

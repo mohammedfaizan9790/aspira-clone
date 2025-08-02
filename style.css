@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
+    scroll-behavior:smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -429,6 +431,10 @@ nav h2 {
 .s5 {
     width: 100%;
     padding: 4rem 1rem;
+}
+.s2,.j3,.a4{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .p,
